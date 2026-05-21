@@ -1,7 +1,7 @@
 # PACKET TALK
 ### A Portable AI-Driven Speech-to-Speech Translation System
 
-**Manalo, Guian Jaundell R.** Computer Engineering Student  
+Computer Engineering Student  
 University of Batangas – Lipa Campus
 
 Packet Talk is a portable AI translator that treats conversation like network data. Using an ESP32, I2S hardware, and a local AI engine, it captures speech "packets," translates them through an AI-driven agent, and plays back the result in real-time. It transforms complex human language into a streamlined, low-latency data exchange, bridging language barriers with a compact, efficient, and privacy-first design.
