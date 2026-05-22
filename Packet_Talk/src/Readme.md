@@ -10,7 +10,7 @@ Packet Talk is a portable AI translator that treats conversation like network da
 
 ## Design Decisions & Hardware Notes
 
-- **AI Engine Choice (Ollama vs. LM Studio):** I initially explored LM Studio for local AI inference. However, I transitioned to **Ollama** because its lightweight, command-line-first architecture allows for seamless API integration with our Flask server. This background service approach provides a much faster "packet" processing time compared to a GUI-heavy application.
+- **AI Engine Choice (Ollama vs. LM Studio):** I initially explored LM Studio for local AI inference. However, we transitioned to **Ollama** because its lightweight, command-line-first architecture allows for seamless API integration with our Flask server. This background service approach provides a much faster "packet" processing time compared to a GUI-heavy application.
 - **Audio Output (Laptop Speaker vs. External Amplifier):** The original design included an external amplifier and speaker module. However, during testing, these components were prone to overloading and distortion at the required volume levels. To guarantee audio clarity, high fidelity, and system longevity, I opted to route the final translated audio output directly through the host laptop's internal speaker system.
 
 ---
